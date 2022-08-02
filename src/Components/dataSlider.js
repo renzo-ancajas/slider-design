@@ -1,23 +1,25 @@
-import React from "react";
+import { v4 as uuidv4 } from "uuid";
 
 const dataSlider = [
 
     {
-        id: racoon1(),
+        id: uuidv4(),
         title: "Racoon Snippet",
-        subtitle: "by John Smith"
+        subTitle: "by John Smith"
     },
 
     {
-        id: racoon2(),
+        id: uuidv4(),
         title: "Racoon City",
-        subtitle: "by Leon Kennedy"
+        subTitle: "by Leon Kennedy"
     },
 
     {
-        id: capybara(),
+        id: uuidv4(),
         title: "He pulled up, hop out the afterparty.",
-        subtitle: "Sippin' on that Henn'"
+        subTitle: "Sippin' on that Henn'"
     }
 
-]
+];
+
+export default dataSlider;

@@ -1,17 +1,12 @@
 import React from "react";
-import react from React
+import './Styles/App.css';
 
-import animalpics from "./Icons"; // path of images
-import '../Styles/App.css';
-import { render } from "@testing-library/react";
+import Slider from './Components/Slider';
 
 function App() {
-    render()
-        return (
-            
-            <img src={animalpics} alt={"animalRacoon"}/>
-        )
-    
+    <>
+        <Slider />
+    </>
 };
 
 export default App;
