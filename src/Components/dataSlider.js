@@ -18,7 +18,7 @@ const dataSlider = [
         id: uuidv4(),
         title: "He pulled up, hop out the afterparty.",
         subTitle: "Sippin' on that Henn'"
-    }
+    },
 
 ];
 
