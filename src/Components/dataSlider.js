@@ -22,13 +22,13 @@ const dataSlider = [
 
     {
         id: uuidv4(),
-        title: "Lorem Ipsum",
+        title: "Capyblappy Swim",
         subTitle: "Dipsum YumYum"
     },
 
     {
         id: uuidv4(),
-        title: "Lorem Ipsum",
+        title: "Capy Herd",
         subTitle: "Dipsum YumYum"
     },
 
