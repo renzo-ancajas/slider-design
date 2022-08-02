@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from "uuid";
+import { v4 as uuidv4} from "uuid";
 
 const dataSlider = [
 
@@ -18,6 +18,18 @@ const dataSlider = [
         id: uuidv4(),
         title: "He pulled up, hop out the afterparty.",
         subTitle: "Sippin' on that Henn'"
+    },
+
+    {
+        id: uuidv4(),
+        title: "Lorem Ipsum",
+        subTitle: "Dipsum YumYum"
+    },
+
+    {
+        id: uuidv4(),
+        title: "Lorem Ipsum",
+        subTitle: "Dipsum YumYum"
     },
 
 ];
